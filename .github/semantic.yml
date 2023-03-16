@@ -1,0 +1,14 @@
+titleOnly: true
+
+types:
+  - feat
+  - fix
+  - perf
+  - refactor
+  - test
+  - chore
+  - revert
+  - docs
+
+scopes:
+  - deps
