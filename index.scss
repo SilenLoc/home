@@ -1,22 +1,3 @@
-.hero {
-  &.has-background {
-    position: relative;
-    overflow: hidden;
-  }
-
-  &-background {
-    position: absolute;
-    object-fit: cover;
-    object-position: bottom;
-    width: 100%;
-    height: 100%;
-
-    &.is-transparent {
-      opacity: 0.3;
-    }
-  }
-}
-
 .burger {
   background-color: transparent;
   border: none;
@@ -25,3 +6,24 @@
 .navbar-brand {
   align-items: center;
 }
+
+.navbar-item {
+  font-size: 20px;
+}
+
+.base {
+  background: black;
+}
+
+.footer {
+  background: black;
+}
+
+.navbar-menu{
+  background: black;
+}
+
+.PostList{
+  background: black;
+}
+
