@@ -42,7 +42,7 @@ pub fn Home() -> Html {
 
             <div class="tile is-child">
                 <figure class="image">
-                    <img alt="some picture" src="https://source.unsplash.com/random/1200x400/?yew" />
+                    <img alt="some picture" src="https://source.unsplash.com/random/1200x400/?black" />
                 </figure>
             </div>
 

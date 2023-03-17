@@ -44,6 +44,9 @@ pub fn Nav() -> Html {
         <Link<Route> classes={classes!("navbar-item")} to={Route::CV}>
                         { "CV" }
                     </Link<Route>>
+        <Link<Route> classes={classes!("navbar-item")} to={Route::Apps}>
+                        { "Apps" }
+                    </Link<Route>>
                 </div>
             </div>
         </nav>

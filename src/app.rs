@@ -10,9 +10,12 @@ use crate::pages::home::Home;
 use crate::pages::page_not_found::PageNotFound;
 use crate::pages::post_list::PostList;
 use crate::pages::cv::CV;
+use crate::pages::apps::Apps;
 
 #[derive(Routable, PartialEq, Eq, Clone, Debug)]
 pub enum Route {
+    #[at("/app")]
+    Apps,
     #[at("/cv")]
     CV,
     #[at("/posts")]
@@ -91,6 +94,9 @@ fn switch(routes: Route) -> Html {
         }
         Route::CV => {
             html! { <CV /> }
+        }
+        Route::Apps => {
+            html! { <Apps /> }
         }
     }
 }
