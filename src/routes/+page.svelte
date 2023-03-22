@@ -38,7 +38,7 @@
                     <li data-te-nav-item-ref>
                         <a
                                 class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
-                                href=""
+                                
                                 data-te-nav-link-ref
                                 data-te-ripple-init
                                 data-te-ripple-color="light"
@@ -48,7 +48,7 @@
                     <li data-te-nav-item-ref>
                         <a
                                 class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
-                                href=""
+                       
                                 data-te-nav-link-ref
                                 data-te-ripple-init
                                 data-te-ripple-color="light"
@@ -58,7 +58,7 @@
                     <li data-te-nav-item-ref>
                         <a
                                 class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
-                                href=""
+                               
                                 data-te-nav-link-ref
                                 data-te-ripple-init
                                 data-te-ripple-color="light"
@@ -68,7 +68,7 @@
                     <li data-te-nav-item-ref>
                         <a
                                 class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
-                                href=""
+                                
                                 data-te-nav-link-ref
                                 data-te-ripple-init
                                 data-te-ripple-color="light"
