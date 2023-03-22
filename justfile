@@ -32,3 +32,6 @@ build: install
 # Install development tools
 install-dev-tools:
     npx playwright install
+
+deploy:
+    npx gh-pages -d dist
