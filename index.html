@@ -1,16 +1,52 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./home/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link rel="modulepreload" href="./home/_app/immutable/entry/start.a2a359b6.js">
+		<link rel="modulepreload" href="./home/_app/immutable/chunks/index.847936d9.js">
+		<link rel="modulepreload" href="./home/_app/immutable/chunks/singletons.df2162b4.js">
+		<link rel="modulepreload" href="./home/_app/immutable/entry/app.4fc78e85.js">
+		<link rel="modulepreload" href="./home/_app/immutable/entry/layout.svelte.b0368388.js">
+		<link rel="modulepreload" href="./home/_app/immutable/entry/_layout.js.984db11e.js">
+		<link rel="modulepreload" href="./home/_app/immutable/chunks/_layout.da46b06b.js">
+		<link rel="modulepreload" href="./home/_app/immutable/entry/_page.svelte.da808fe5.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
 
-    <title>Yew • Function Router</title>
-    <base href="/home/">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" href="/home/index-2e4e699b9f23b3d5.css">
-    <script type="module">import init from '/home/function_router-5fdf210a426f5166.js';init('/home/function_router-5fdf210a426f5166_bg.wasm');</script>
-  
-<link rel="preload" href="/home/function_router-5fdf210a426f5166_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
-<link rel="modulepreload" href="/home/function_router-5fdf210a426f5166.js"></head>
 
-  <body>
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
-</body></html>
+
+			
+			<script>
+				{
+					__sveltekit_1dfsa0i = {
+						env: {},
+						assets: "/home",
+						base: new URL("./home", location).pathname,
+						element: document.currentScript.parentElement
+					};
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./home/_app/immutable/entry/start.a2a359b6.js"),
+						import("./home/_app/immutable/entry/app.4fc78e85.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_1dfsa0i.element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
