@@ -34,3 +34,9 @@ install-dev-tools:
 
 deploy:
     npx gh-pages -d build
+
+commit message:
+    git add .
+    git commit -m "{{message}}"
+    git push
+

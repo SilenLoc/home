@@ -15,7 +15,7 @@ export default {
       strict: true
     }),
     paths: {
-      base: dev ? '' : '',
+      base: dev ? '' : '/home/',
     }
   },
   preprocess: vitePreprocess()
