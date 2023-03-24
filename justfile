@@ -1,6 +1,5 @@
 #!/usr/bin/env just --justfile
 set dotenv-load
-export PATH := "./node_modules/.bin:" + env_var('PATH')
 
 @_list:
 	just --list --unsorted
@@ -34,4 +33,4 @@ install-dev-tools:
     npx playwright install
 
 deploy:
-    npx gh-pages -d dist
+    npx gh-pages -d build
