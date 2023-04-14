@@ -9,7 +9,7 @@ const one: Template = {
   title: "silen.locatelli@gmx.ch",
 };
 const two: Template = {
-link: "www.linkedin.com/in/silen-locatelli",
+link: "https://www.linkedin.com/in/silen-locatelli",
     type: "Linkedin",
   title: "Silen Locatelli",
 };
