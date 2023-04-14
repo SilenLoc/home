@@ -6,6 +6,7 @@ import compress from "astro-compress";
 import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
-   site: 'https://lexingtonthemes.com',
+  site: 'https://silenloc.github.io/home/',
+  base: '/home',
   integrations: [tailwind(), image(), compress(),  sitemap()]
 });
