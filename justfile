@@ -7,4 +7,5 @@ run:
 	npm run preview
 
 build:
+	npm install
 	npm run build
