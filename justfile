@@ -2,8 +2,7 @@
 	just --list --unsorted
 
 
-run:
-	npm run build
+run: build
 	npm run preview
 
 build:
